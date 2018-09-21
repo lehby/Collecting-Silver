@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/Receivables/Receivables",
+    "pages/Details/Details",
+    "pages/Statistics/Statistics"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#2269d4",
+    "navigationBarTitleText": "收银员",
+    "navigationBarTextStyle": "#fff"
+  },
+  "tabBar": {
+    "color": "black",
+    "selectedColor": "#2269d4",
+    "list": [
+      {
+        "pagePath": "pages/Receivables/Receivables",
+        "text": "订单收款",
+        "iconPath": "/imgs/11.png",
+        "selectedIconPath": "/imgs/111.png"
+      },
+      {
+        "pagePath": "pages/Statistics/Statistics",
+        "text": "统计表单",
+        "iconPath": "/imgs/Statistics.png",
+        "selectedIconPath": "/imgs/Statistics1.png"
+      }
+    ]
+  }
+}
