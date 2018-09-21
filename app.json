@@ -1,8 +1,9 @@
 {
   "pages": [
+    "pages/Statistics/Statistics",
     "pages/Receivables/Receivables",
-    "pages/Details/Details",
-    "pages/Statistics/Statistics"
+    "pages/Details/Details"
+    
   ],
   "window": {
     "backgroundTextStyle": "light",

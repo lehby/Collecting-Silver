@@ -5,7 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    navbar: ['全部订单', '未付', '已付'],
+    navbar: ['全部订单', '未付', '已付',"放行"],
     currentTab: 0,
     Unpaidlist: [//未付
       {
@@ -31,6 +31,20 @@ Page({
       {
         CustomeId: '348867486123',
         OrderType: '已付',
+        Opreator: "郑明工",
+        Price: "120",
+      },
+    ],
+    paidlist1: [//放行
+      {
+        CustomeId: '348867486123',
+        OrderType: '已放行',
+        Opreator: "郑明工",
+        Price: "120",
+      },
+      {
+        CustomeId: '348867486123',
+        OrderType: '已放行',
         Opreator: "郑明工",
         Price: "120",
       },
